@@ -7,4 +7,13 @@ window.onload = () => {
       clickable: true,
     },
   });
+
+  const bidPicture = document.getElementById("big-picture");
+
+  const galleryImages = document.querySelectorAll(".swiper-slide img");
+  galleryImages.forEach((img, index) => {
+    img.onclick = () => {
+      bidPicture.src = img.src;
+    };
+  });
 };
