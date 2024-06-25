@@ -101,14 +101,14 @@ window.onload = () => {
     }
   });
 
-  const galleryImages = document.querySelectorAll("#gallery img");
-  galleryImages.forEach((img, index) => {
-    img.onclick = () => {
-      swiper.slideTo(index);
-      outsideModal.style.display = "block";
-      documentBody.style.overflow = "hidden";
-    };
-  });
+  const bidPicture = document.getElementById("big-picture");
+
+  bidPicture.onclick = () => {
+    console.log("bidPicture");
+    swiper.slideTo(index);
+    outsideModal.style.display = "block";
+    documentBody.style.overflow = "hidden";
+  };
 
   const shareViaSMSBtn = document.querySelector(".shareTwoG");
   shareViaSMSBtn.addEventListener("click", () => {

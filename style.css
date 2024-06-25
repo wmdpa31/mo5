@@ -421,6 +421,28 @@ main {
   /* 가로 가운데 정렬을 위한 justify-content 속성 추가 */
 }
 
+.enlarged {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  /* max-width: 90vw;  */
+  max-height: 50vh;
+  width: auto;
+  height: auto;
+  z-index: 1001;
+  cursor: zoom-out;
+}
+
+.modal-background {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(0, 0, 0, 0.8);
+  z-index: 1000;
+}
 /* #galleryImages {
   overflow: hidden;
   height: 370px;
