@@ -427,7 +427,7 @@ main {
   left: 50%;
   transform: translate(-50%, -50%);
   /* max-width: 90vw;  */
-  max-height: 50vh;
+  max-height: 70%;
   width: auto;
   height: auto;
   z-index: 1001;
@@ -526,5 +526,5 @@ main {
   display: block;
   width: 100%;
   height: 100%;
-  object-fit: cover;
+  /* object-fit: cover; */
 }
