@@ -46,22 +46,22 @@ window.onload = () => {
     Kakao.Share.sendDefault({
       objectType: "feed",
       content: {
-        title: "왕레이 ♥ 이유솔의 모바일 청첩장",
+        title: "김봉수 ♥ 이윤정의 모바일 청첩장",
         description: "결혼식에 초대합니다♡",
-        imageUrl: "https://i.imgur.com/QrLbDHt.png",
+        imageUrl: "https://i.imgur.com/qClmchD.png",
         imageWidth: 1200,
         imageHeight: 630,
         link: {
-          mobileWebUrl: "https://mo4.luvle.co.kr",
-          webUrl: "https://mo4.luvle.co.kr",
+          mobileWebUrl: "https://mo2.luvle.co.kr",
+          webUrl: "https://mo2.luvle.co.kr",
         },
       },
       buttons: [
         {
           title: "자세히 보기",
           link: {
-            mobileWebUrl: "https://mo4.luvle.co.kr",
-            webUrl: "https://mo.luvle.co.kr",
+            mobileWebUrl: "https://mo2.luvle.co.kr",
+            webUrl: "https://mo2.luvle.co.kr",
           },
         },
       ],
@@ -80,7 +80,7 @@ window.onload = () => {
 
   // const btnShareFb = document.querySelector(".shareFb");
   // btnShareFb.addEventListener("click", () => {
-  //   const pageUrl = "mo4.luvle.co.kr/";
+  //   const pageUrl = "mo2.luvle.co.kr/";
   //   window.open(`http://www.facebook.com/sharer/sharer.php?u=${pageUrl}`);
   // });
 
@@ -101,14 +101,14 @@ window.onload = () => {
     }
   });
 
-  const bidPicture = document.getElementById("big-picture");
-
-  bidPicture.onclick = () => {
-    console.log("bidPicture");
-    swiper.slideTo(index);
-    outsideModal.style.display = "block";
-    documentBody.style.overflow = "hidden";
-  };
+  const galleryImages = document.querySelectorAll("#gallery img");
+  galleryImages.forEach((img, index) => {
+    img.onclick = () => {
+      swiper.slideTo(index);
+      outsideModal.style.display = "block";
+      documentBody.style.overflow = "hidden";
+    };
+  });
 
   const shareViaSMSBtn = document.querySelector(".shareTwoG");
   shareViaSMSBtn.addEventListener("click", () => {
