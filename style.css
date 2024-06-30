@@ -102,7 +102,7 @@ body {
 }
 
 #gallerySection {
-  background-color: #f4eeeb;
+  background-color: #F7EDE9;
   padding-top: 20%;
 }
 
@@ -251,7 +251,7 @@ body {
 
 #locationSection {
   margin-top: 3%;
-  background-color: #f4eeeb;
+  background-color: #F7EDE9;
   height: 265px;
 }
 
@@ -316,8 +316,8 @@ main {
 }
 
 .accordion {
-  background-color: #f4eeeb;
-  color: black;
+  background-color: #E8AE9B;
+  color: white;
   cursor: pointer;
   padding: 0.8rem;
   width: 100%;
@@ -408,7 +408,7 @@ main {
 }
 
 #kakaoMapButton {
-  background-color: #d8b8aa;
+  background-color: #DDA593;
   padding: 10px;
   text-align: center;
   width: auto;
