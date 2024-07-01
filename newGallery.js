@@ -60,7 +60,7 @@ window.onload = () => {
           title: "자세히 보기",
           link: {
             mobileWebUrl: "https://mo5.luvle.co.kr",
-            webUrl: "https://mo.luvle.co.kr",
+            webUrl: "https://mo5.luvle.co.kr",
           },
         },
       ],
