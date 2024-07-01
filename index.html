@@ -30,6 +30,8 @@
   <script>
     Kakao.init("c2daa8b980cd01de4c366d51d8308efe");
   </script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script type="text/javascript" src="snowfall.js"></script>
   <script src="swiper-bundle.min.js"></script>
   <script type="text/javascript" src="gallery.js"></script>
   <!-- new 갤러리 -->
@@ -43,6 +45,21 @@
 </head>
 
 <body>
+  <script type='text/javascript'>     
+    $(document).ready(function(){
+        $(document).snowfall({
+            flakeCount: 60, // 눈의 량을 수치로 기술
+            minSize: 3, // 눈의 최소사이즈를 수치로 입력
+            maxSize: 10, // 눈의 최대 사이즈를 수치로 입력
+            minSpeed: 1, // 눈의 최소사이즈를 수치로 입력
+            maxSpeed: 3, // 최대속도를 수치로 입력
+            flakeColor: "#D47C63", // 눈의 색을 칼라코드로 입력
+            // image: "img/arrow_w.png", // 이미지
+            round : true, // 눈이 둥글면 true, 아니면 false
+            shadow: false, // 눈의 그림자가 있으면, 없으면 false
+         })
+    });
+ </script>
   <div>
     <main>
       <div>
