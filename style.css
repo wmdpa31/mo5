@@ -61,7 +61,7 @@ body {
   /* line-height: 1.7rem; */
   font-weight: 600;
   text-align: center;
-  margin: 18% 0 13% 0;
+  margin: 5% 0 13% 0;
   color: #242424;
 }
 
@@ -89,7 +89,7 @@ body {
 }
 
 #coverdiscInfo {
-  font-size: 15px;
+  font-size: 13px;
 }
 
 #weddingHallCallP {
@@ -102,7 +102,7 @@ body {
 }
 
 #gallerySection {
-  background-color: #F7EDE9;
+  background-color: #f7ede9;
   padding-top: 20%;
 }
 
@@ -251,7 +251,7 @@ body {
 
 #locationSection {
   margin-top: 3%;
-  background-color: #F7EDE9;
+  background-color: #f7ede9;
   height: 265px;
 }
 
@@ -316,7 +316,7 @@ main {
 }
 
 .accordion {
-  background-color: #E8AE9B;
+  background-color: #e8ae9b;
   color: white;
   cursor: pointer;
   padding: 0.8rem;
@@ -408,7 +408,7 @@ main {
 }
 
 #kakaoMapButton {
-  background-color: #DDA593;
+  background-color: #dda593;
   padding: 10px;
   text-align: center;
   width: auto;
@@ -453,7 +453,7 @@ main {
     padding-top: 20px;
     padding-left: 20px;
     padding-bottom: 50px; */
-    padding: 2.5rem 2rem;
+    padding: 3rem 2rem;
     text-align: center;
   }
 
